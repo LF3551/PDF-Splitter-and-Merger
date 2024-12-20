@@ -15,7 +15,13 @@
    cd PDFSplitterMerger
  ```
 
-2. Install the required dependencies:
+2. Create and activate a virtual environment:
+```bash
+   python3 -m venv venv
+   source venv/bin/activate
+```
+
+3. Install the required dependencies:
 ```bash
    pip install -r requirements.txt
  ```
@@ -33,3 +39,8 @@ Combine multiple PDFs into one:
 ```bash
 python3 main.py merge --input output_folder/*.pdf --output merged.pdf
 ```
+
+
+ ### License
+
+This project is licensed under the Universal Permissive License (UPL), Version 1.0.
